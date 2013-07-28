@@ -1,9 +1,14 @@
 <hgroup>
   <div id="logo">
-  	<div id="logoLeft">{</div>
-  	<div id="logoText">mob</div>
-  	<div id="logoRight">}</div>
+  	<div id="logoLeft"></div>
+  	<div id="logoText"></div>
+  	<div id="logoRight"></div>
   	<div class="clear"></div>
+        <script type="text/javascript">
+            var today = new Date();
+            var m = today.getMonth();
+            document.getElementById("logoRight").innerHTML = String.fromCharCode(0x32C0 + m);
+        </script>
   </div>
   <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
   {% if site.subtitle %}
