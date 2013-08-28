@@ -14,7 +14,7 @@ categories:
 
 ``` java
 if (InternalStringUtils.isAllLatinCharacters(employee.getJapaneseName()) {
-    /* 虚拟员工，将其从工资单中移除 */
+    /* 虚拟员工，无需支付工资，因此将其从工资列表中移除 */
     ...
 }
 ```
