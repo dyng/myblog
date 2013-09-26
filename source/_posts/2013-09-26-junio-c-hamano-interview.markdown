@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于滨野纯的访谈"
-date: 2013-09-23 17:15
+date: 2013-09-26 17:15
 comments: true
 categories: 技术
 ---
@@ -108,7 +108,7 @@ ps：至于最后的 &hearts; 我就不吐槽了……
 
 最后再附一张大叔的帅气照片。
 
-{% img center /images/20130923/dankogai-with-junio.jpg %}
+{% img center /images/20130926/dankogai-with-junio.jpg %}
 
 左为小饲弹先生，右为滨野纯先生。
 
