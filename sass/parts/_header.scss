@@ -334,6 +334,20 @@ $header-height: 30px;
 					border: 1px solid darken(#C83D20, 10%);
 				}
 			}
+			&.douban{
+				background: image-url('social/douban.png') center no-repeat #00961E;
+				border: 1px solid #00961E;
+				&:hover{
+					border: 1px solid darken(#00961E, 10%);
+				}
+			}
+			&.weibo{
+				background: image-url('social/weibo.png') center no-repeat #DC3C3C;
+				border: 1px solid #DC3C3C;
+				&:hover{
+					border: 1px solid darken(#DC3C3C, 10%);
+				}
+			}
 			&.twitter{
 				background: image-url('social/twitter.png') center no-repeat #55CFF8;
 				border: 1px solid #55CFF8;
