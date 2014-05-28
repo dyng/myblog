@@ -16,9 +16,9 @@ categories: 技术
 
 仿照书中的写法，这里也首先从Linus的一封邮件谈起。这封邮件是Linus于2005年4月投向Git的开发者邮件列表的，起因是有开发者提议在commit对象中添加rename信息，以便于SCM日后能够输出更详细的变更历史，Linus对此非常不以为然，于是就发了这封邮件，阐释他心目中理想的**Git应该是什么**，而按照《入门Git》中的说法，“这封邮件成为了其后的开发工作最重要的指导方针之一”。[^2]
 
-> From: Linus Torvalds \<torvalds@osdl.org><br/>
-> Subject: Re: Merge with git-pasky II.<br/>
-> Date: 2005-04-16 01:32:46<br/>
+> From: Linus Torvalds \<torvalds@osdl.org>  
+> Subject: Re: Merge with git-pasky II.  
+> Date: 2005-04-16 01:32:46  
 >
 > 好了，现在来听听我的建议。
 >
